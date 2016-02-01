@@ -45,6 +45,7 @@ log {
 
 ### elasticsearch config file for client (used by syslog-ng as a resource)
 ```
+path.home: /usr/share/elasticsearch
 shield.ssl.keystore.path: /home/test/es/certs/client/client.jks
 shield.ssl.keystore.password: qqq123
 shield.transport.ssl: true
