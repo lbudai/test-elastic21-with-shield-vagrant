@@ -52,6 +52,11 @@ shield.transport.ssl: true
 shield.user: es_admin:qqq123
 ```
 
+### check cluster health
+```
+curl -XGET -u es_admin:qqq123 'http://192.168.33.10:9200/_cluster/health?pretty=true'
+```
+
 ### send message
 ```
 logger -s TEST-MSG-$RANDOM 2>&1 | nc localhost 5555
