@@ -2,7 +2,6 @@
 
 apt-get update
 
-apt-get install expect -y
 apt-get install openjdk-7-jre-headless -y
 
 wget https://download.elasticsearch.org/elasticsearch/release/org/elasticsearch/distribution/deb/elasticsearch/2.1.1/elasticsearch-2.1.1.deb
