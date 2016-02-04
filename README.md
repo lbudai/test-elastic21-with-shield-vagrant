@@ -70,5 +70,5 @@ curl -u es_admin:qqq123 -XGET 192.168.33.10:9200/_cat/indices/es-syslog-ng
 ### query the index
 
 ```
-curl -u es_admin:qqq123 -XGET 192.168.33.10:9200/es-syslog-ng/
+ curl -XGET -u es_admin:qqq123 'http://192.168.33.10:9200/_search/?q=HOST:localhost'
 ```
